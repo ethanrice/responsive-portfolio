@@ -1,0 +1,208 @@
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #7DADD9;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+#top-bar{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 90px;
+    background-color: #0000;
+    z-index: -1;
+    border-bottom: 2px solid #cccccc;
+}
+
+
+h1 {
+    float: left;
+    font-family: 'Georgia', Times, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 27px;
+    margin: 0 0 21.440px 0;
+}
+.menu {
+    float: right;
+    height: 18px;
+    padding: 0px 18px 0 18px;
+    background-color: #ffffff;
+    margin: 36px 0px 39.440px 0px;
+    color: #777777;
+    border-right: 0.5px solid #cccccc;
+}
+#main-content{
+    background-color: #0000;
+    line-height: 150%;
+ }
+h2 {
+    clear: both;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    padding: 38px 20px 38px 20px;
+    margin: 20px;
+    border-bottom: 2px solid #cccccc;
+    font-size: 32px;
+}
+#my-pic {
+    float:left;
+    margin: 0px 20px 20px 20px;
+    color: white
+}
+#body-text {
+    margin: 20px;
+    border-bottom: 20px solid #ffffff;
+}
+
+#footer{
+    position: fixed;
+    bottom:0px;
+    left: 0px;
+    background-color: #666666;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 35px 0 10px 0;
+    padding-top: 5px;
+    border-top: 5px solid #4aaaa5;
+}   
+
+#body{
+    width: 808px;
+}
+
+#name-box, #email-box{
+    height:20px;
+    border: 0.5px solid #cccccc;
+    margin:10px 0 10px 0;
+    padding:10px;
+}
+#message-box{
+    height:150px;
+    border: 0.5px solid #cccccc;
+    margin:10px 0 10px 0;
+}
+#submit{
+    padding:10px 20px 10px 20px;
+    width: 60px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+#box-tl, #box-tr {
+    float: left;
+    width: 230px;
+    height: 175px;
+    margin: 20px;
+    position: relative;
+    top: 20px;
+    left:0px;
+}
+#box-tl{
+    background-image:url("https://imgur.com/4ESAThr");
+    background-size: 230px 175px;
+}
+#box-tr{
+    background-image:url("https://imgur.com/AC2BFGm");
+    background-size: 230px 175px;
+}
+
+
+
+nav{
+    float: right;
+    padding: 30px 0 30px 30px;
+    color:#eeeeee;
+}
+.navbar{
+    text-decoration: none;
+    border-right: 0.5px solid #cccccc;
+    color: #777777;
+    padding: 10px;
+}
+#my-pic{
+    width: 250px;
+    height: 200px;
+}
+#apps{
+    height: 1500px;
+    background-color: #ffffff;
+    color: #eeeeee;
+    text-decoration: none;
+}
+#logos{
+    float: right;
+}
+
+@media screen and (max-width: 640px){
+    nav{
+        clear: both;
+        padding: 10px;
+        background-color: #ffffff;
+        width:100%;
+        height: 25px;
+        text-align:center;
+        border-bottom: 2px solid #cccccc;
+        
+    }
+    h1{
+        clear: both;
+        height: 20px;
+        width: 100%;
+        margin: 0;
+        padding: 20px;
+        font-size: 25px;
+        text-align:center;
+    }
+    h2{
+        font-size: 24px;
+    }
+    a {
+        padding:0 7px 7px 7px;
+        text-align: center;
+    }
+    #top-bar{
+        height: 0;
+    }
+    #main-content{
+        width:97%;
+        margin-left: 2%;
+    }
+    #my-pic{
+        width: 200px;
+        height: 175px;
+    }
+}
+@media screen and (max-width: 768px){
+    header{
+    width:100%;
+    }
+
+    #top-bar{
+        width: 100;
+    }
+    #main-content{
+        width:90%;
+        margin-left:5%;
+    }
+
+}
+@media screen and (min-width: 769px), (max-width: 980px){
+
+    #main-content{
+        width:90%;
+        margin-left:5%;
+    }
+    #apps{
+        width:85%
+    }
+
+}
